@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #recommendations {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Recommendation System</h1>
+    <label for="favorite-movie">Enter your favorite movie:</label>
+    <input type="text" id="favorite-movie" placeholder="e.g., The Godfather">
+    <button onclick="getRecommendations()">Get Recommendations</button>
+
+    <div id="recommendations">
+        <h2>Recommended Movies:</h2>
+        <ul id="recommendations-list"></ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
